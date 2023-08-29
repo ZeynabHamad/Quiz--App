@@ -73,10 +73,12 @@ function addNext() {
           answerButton.style.display = "block";
         });
       }
+      nextButton.style.display = "none";
     }
   });
 }
 addNext();
+
 //  Questions and Answers
 const questions = [
   {
